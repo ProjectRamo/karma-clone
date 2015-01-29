@@ -55,3 +55,98 @@ body {
 div {
     border: 1px solid Chocolate;
 }
+
+/* header style */
+.top-navigation {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+}
+.top-navigation .links {
+	float: right;
+	color: #838994;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
+}
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 1.563rem;
+}
+
+.content {
+	margin: 0 auto;
+	width: 60%;
+}
+
+/* addede from Thinkful */
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.introduction {
+	/*background-image: url(http://thinkful-ed.github.io/karma-clone/img/first-background.jpg);*/
+	background-image: url('../assets/first-background.jpg');
+	background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
+
+.big-button:hover {
+	background-color: orange;
+}
+
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    margin-top: 26rem;
+    background-color: red;
+    font-size: 32;
+    color: blue;
+    margin-0 auto;
+    display: block;
+
+    align-items: flex-start;
+	background-color: rgb(241, 90, 41);
+	border-color: rgb(241, 90, 41);
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	font-family: '.HelveticaNeueDeskInterface-Regular';
+	font-size: 18px;
+	height: 53px;
+	padding-bottom: 16px;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 16px;
+	text-align: center;
+	width: 155px;
+
+    /*
+    You will need to add a width to this button along with a 
+    background-color, font-size, and color. 
+    To center the button, you can set it's display to block so that margin:0 auto 
+    will work. Also -- to space the button away from the text, 
+    give it some margin-top or maybe margin-bottom on the text.*/
+
+}
